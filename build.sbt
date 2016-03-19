@@ -26,8 +26,10 @@ version := "0.1-SNAPSHOT"
    * Testing libraries can append "test" as the configuration as shown with 'scalatest'
      * These dependencies will "show up in the classpath only for the Test configuration and not the Compile configuration"
      * http://www.scala-sbt.org/0.13/docs/Library-Dependencies.html#Per-configuration+dependencies
-  
+
   * You can usually find the format by searching http://mvnrepository.com/
+
+  * These are just examples, you don't have to keep these.
   */
 libraryDependencies ++= Seq(
   "joda-time"     %  "joda-time"    % "2.9.2",         // more robust Date and Time library than builtins
