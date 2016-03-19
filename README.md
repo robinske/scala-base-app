@@ -60,7 +60,7 @@ The following directory structure also works if you don't want to include the or
 
 
 #### Things you'll need to change:
-* 'name' in [build.sbt](#) - make it your own project name
+* 'name' in [build.sbt](https://github.com/robinske/scala-base-app/blob/master/build.sbt) - make it your own project name
 * The names of the folders in your directory structure (see above)
 
 
@@ -68,7 +68,7 @@ The following directory structure also works if you don't want to include the or
 
 To set the sbt version, update scala-base-app/project/build.properties
 
-Run SBT (`$ sbt`) from the top directory, or you're gonna have a bad time.
+Run SBT (`scala-base-app $ sbt`) from the top directory, or you're gonna have a bad time.
 
 #### Useful SBT commands:
 These are useful once you're already inside of sbt (after you've run '`$ sbt` from the top level of this directory)
@@ -81,7 +81,7 @@ These are useful once you're already inside of sbt (after you've run '`$ sbt` fr
 | **compile**    | compiles the code                                     |
 | **reload**     | reloads changes to the `build.sbt` file               |
 
-Note: prepend any of the above with ~ for re-evaluation. i.e. `~test-quick` will rerun the subset of affected tests every time code is changed
+Note: prepend any of the above with `~` for re-evaluation. i.e. `~test-quick` will rerun the subset of affected tests every time code is changed.
 
 
 #### Resources
